@@ -1,0 +1,199 @@
+body {
+    background-color: #1a535c;
+    color: wheat;
+    
+}
+
+/*Navigation*/
+
+nav{
+    background-color: #777777;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+
+li{
+    list-style: none;
+    font-size: 2em;
+    color: white;
+}
+
+.newGame:hover{
+    cursor: pointer;
+    font-size: 2.5em;
+    transition: 0.3s;
+
+}
+
+
+
+/* jeux */
+
+.containerJeux{ 
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.motTrouver{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.motTrouver button{
+    border-radius: 25px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+    
+}
+
+.motTrouver button:hover{
+    background-color: wheat;;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.motAdeviner{
+    font-size: 4em;
+    text-align: center;
+}
+
+.clavier{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clavier button {
+    margin: 4px;
+    width: 45px;
+    height: 40px;
+    font-size: 2em;
+}
+
+.clavier button:hover{
+    background-color: #777777;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+
+.lettreIncorect{
+    
+    
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    background-color: #777777;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+/*replay*/
+
+.replay {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    text-align: center;
+    font-size: 2em;
+    background-color: #777777;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.replay button{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.replay button:hover{
+    background-color: #1a535c;
+    color: white;  
+    transition: 0.3s;
+}
+
+
+/* winner */
+
+.win{
+
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+    background-color: #777777;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.win button{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.win button:hover{
+    background-color: #1a535c;
+    color: white;  
+    transition: 0.3s;
+}
+
+/* classe ajouter avec js */
+
+.floue{
+        filter: blur(4px);
+}
+
+
+
+    
+    
+
+
+   
+    
+
+
+
+
+
+
